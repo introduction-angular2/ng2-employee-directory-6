@@ -1,6 +1,6 @@
 import {Component} from "angular2/core";
 import {RouteConfig, ROUTER_DIRECTIVES} from "angular2/router";
-import {BookSearchComponent} from './book-search.component';
+import {HomeComponent} from './home.component';
 
 @Component({
     template : `<router-outlet></router-outlet>`,
@@ -8,8 +8,8 @@ import {BookSearchComponent} from './book-search.component';
 })
 
 @RouteConfig([
-        { path: '/search', name: 'Search', component: BookSearchComponent, useAsDefault: true }
+  {path: '/',  name: 'Welcome', component: HomeComponent, useAsDefault: true}
 ])
 
-export class BookRouter{}
+export class HomeRouter{}
 
