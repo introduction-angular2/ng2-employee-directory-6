@@ -32,3 +32,38 @@ table.table tr th {
 .navbar-custom .icon-bar {
       background-color:#33aa33;
 }
+.list-container {
+    list-style: none;
+    overflow: auto;
+}
+.book-img {
+    max-height: 190px;
+    width: 190px;
+}
+.book {
+     float: left;
+    position: relative;
+    height: 320px;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px 0px, rgba(0, 0, 0, 0.137255) 0px 3px 4px 0px, rgba(0, 0, 0, 0.117647) 0px 3px 3px -2px;
+    margin-bottom: 5px;
+    margin-left: -30px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.book-tile {
+    float: left;
+    position: relative;
+    height: 350px;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px 0px, rgba(0, 0, 0, 0.137255) 0px 3px 4px 0px, rgba(0, 0, 0, 0.117647) 0px 3px 3px -2px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding:5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    width:45%;
+}
+

@@ -1,8 +1,7 @@
 import {Component} from "angular2/core";
 import {RouteConfig, ROUTER_DIRECTIVES} from "angular2/router";
 import {NavbarComponent} from './layout/navbar.component';
-import {HomeRouter} from './home/home.router';
-import {EmployeeRouter} from './employee/employee.router';
+import {BookRouter} from './book/book.router';
 
 @Component({
     selector : 'my-app',
@@ -13,8 +12,7 @@ import {EmployeeRouter} from './employee/employee.router';
 })
 
 @RouteConfig([
-  {path: '/home/...',  name: 'Home', component: HomeRouter, useAsDefault: true},
-  {path: '/employee/...',  name: 'Employee', component: EmployeeRouter},
+    { path: '/book/...', name: 'Book', component: BookRouter, useAsDefault: true }
 ])
 
 export class AppRouter{}
